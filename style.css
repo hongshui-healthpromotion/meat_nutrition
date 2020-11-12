@@ -9,7 +9,8 @@ body {
 .parallax-window {
   min-height: 400px;
   background: transparent;
-  padding: 50vh;
+  padding: 50vh 25vw;
+
   text-align: center;
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 .container {
-  padding: 50vh 20% 50vh 20%;
+  padding: 50vh 20vw 50vh 20vw;
   min-height: 100vh;
   text-align: center;
 }
