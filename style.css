@@ -1,0 +1,162 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(38, 36, 61);
+  color: white;
+}
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+  padding: 50vh;
+  text-align: center;
+}
+
+.parallax-title {
+  z-index: 2;
+  position: relative;
+  font-size: 5rem;
+  text-shadow: 4px 6px 13px rgb(33, 33, 73);
+  color: white;
+  animation: change 4s;
+}
+
+@keyframes change {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.container {
+  padding: 50vh 20% 50vh 20%;
+  min-height: 100vh;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.filter-info {
+  position: relative;
+  z-index: 2;
+  text-shadow: 2px 3px 6px black;
+}
+
+.redmeat1 {
+  min-height: 40vh;
+  min-width: 50vw;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.redmeat2 {
+  min-height: 40vh;
+  min-width: 50vw;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.redmeat3 {
+  min-height: 40vh;
+  min-width: 50vw;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.redmeat1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: opacity(0.6) grayscale(0.4);
+  background-image: url("./photos/redmeat1.jpg");
+  background-size: 300px 300px;
+  background-size: cover;
+}
+.redmeat2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: opacity(0.6) grayscale(0.4);
+  background-image: url("./photos/redmeat2.jpg");
+  background-size: 300px 300px;
+  background-size: cover;
+}
+.redmeat3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: opacity(0.6) grayscale(0.4);
+  background-image: url("./photos/redmeat3.jpg");
+  background-size: 300px 300px;
+  background-size: cover;
+}
+
+.whitemeat1 {
+  min-height: 40vh;
+  min-width: 50vw;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.whitemeat2 {
+  min-height: 40vh;
+  min-width: 50vw;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.whitemeat3 {
+  min-height: 40vh;
+  min-width: 50vw;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.whitemeat1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: opacity(0.6) grayscale(0.4);
+  background-image: url("./photos/whitemeat1.jpg");
+  background-size: 300px 300px;
+  background-size: cover;
+}
+.whitemeat2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: opacity(0.6) grayscale(0.4);
+  background-image: url("./photos/whitemeat2.jpg");
+  background-size: 300px 300px;
+  background-size: cover;
+}
+.whitemeat3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: opacity(0.6) grayscale(0.4);
+  background-image: url("./photos/whitemeat3.jpg");
+  background-size: 300px 300px;
+  background-size: cover;
+}
