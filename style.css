@@ -90,7 +90,7 @@ body {
 .parallax-window {
   height: 60vh;
   background: transparent;
-  padding: 20vh 25vw;
+  padding: 22vh 25vw;
 
   text-align: center;
 }
@@ -242,4 +242,11 @@ p {
   background-image: url("./photos/whitemeat3.jpg");
   background-size: 300px 300px;
   background-size: cover;
+}
+
+.ref p {
+  margin: 0 10vw;
+  font-size: 1.2rem;
+  position: relative;
+  top: -150px;
 }
